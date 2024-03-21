@@ -6,7 +6,7 @@ Este repositório é destinado exclusivamente para armazenar meus arquivos e des
 
 ## Curso Python - Mundo 02
 
-O Curso Python - Mundo 02 é uma jornada de aprendizado de 40 horas focada em aprofundar os conhecimentos em Python. Ao longo deste curso, os alunos exploram tópicos avançados de programação em Python, abrangendo conceitos como funções, condicionais, loops, listas, dicionários, tuplas, conjuntos, manipulação de arquivos, tratamento de erros, e muito mais.
+O Curso Python - Mundo 02 é uma jornada de aprendizado de 40 horas focada em aprofundar os conhecimentos em Python. Ao longo deste curso, os alunos exploram tópicos avançados de programação em Python, abrangendo conceitos como condições(if, elif, else) , repetições (for, while) e muito mais.
 
 ## Estrutura do Repositório
 
