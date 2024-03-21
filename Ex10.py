@@ -12,19 +12,24 @@ print('''FORMAS DE PAGAMENTO
 [3] 2x no cartão
 [4] 3x no cartão''')
 opção = int(input('Qual a opção desejada? '))
+
 if opção == 1:
-    total = p - (p * 10 / 100)
+    total = p - (p * 10 / 100) #preço - (10%)
+
 elif opção == 2:
-    total = p - (p * 5 / 100)
+    total = p - (p * 5 / 100) #preço - (5%)
+
 elif opção == 3:
-    total = p
-    parcela = total / 2
+    total = p #total = preço pois nao tem desconto
+    parcela = total / 2 #2x no cartao sem juros são duas parcelas
     print('Sua compra será parcelada em 2x de R${}'.format(parcela))
+
 elif opção == 4:
-    total = p + (p * 20 / 100)
-    totalparcelas = int(input('Quantas parcelas? '))
-    parcela = total / totalparcelas
+    total = p + (p * 20 / 100) #preço + (20%)
+    totalparcelas = int(input('Quantas parcelas? ')) #para escolher quantas parcelas de 3x ou mais
+    parcela = total / totalparcelas #parcela = totalparcelas que o usuario digitar
     print('Sua compra será parcelada em {}x de R${} COM JUROS'.format(totalparcelas, parcela))
+
 else:
     total = p
     print('OPÇÃO INVÁLIDA DE PAGAMENTO!')
